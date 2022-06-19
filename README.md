@@ -1,12 +1,12 @@
 # Fluent-UDFs
 UDFs for simulating nuclear reactor core
 
-A user-defined function, or UDF, is a function that you program that can be dynamically loaded with the ANSYS FLUENT solver to enhance the standard features of the code. For example, you can use a UDF to define your own boundary conditions, material properties, and source terms for your flow regime, as well as specify customized model parameters (e.g., DPM, multiphase models), initialize a solution, or enhance postprocessing. See Section  1.2 for more examples. 
+A user-defined function, or UDF, is a function that you program that can be dynamically loaded with the ANSYS FLUENT solver to enhance the standard features of the code. For example, you can use a UDF to define your own boundary conditions, material properties, and source terms for your flow regime, as well as specify customized model parameters (e.g., DPM, multiphase models), initialize a solution, or enhance postprocessing. See Section 1.2 in ANSYS FLUENT UDF Manual for more examples. 
 
-This UDFs represents an approach how to create boundary condition which utilizes non constant profile. I used it to simulate heat generations 
+This UDFs represents an approach how to create boundary condition which utilizes a non constant profile. I mainly used it to simulate heat generation
 field in nuclear reactors such as GT-MHR and PWR.
 
-This UDFs can be used to simulate various boundary conditions in various medias.
+
 
 *wall_heat_flux_with_cosine_heat_generation_distribution.c* 
 > UDF which I use to simulate heat flux through a coolant channew wall which 
